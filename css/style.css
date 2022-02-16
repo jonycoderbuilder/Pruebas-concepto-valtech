@@ -1,0 +1,208 @@
+/* Reset*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Header*/
+
+header{
+    height: 20rem;
+    border-bottom: 1px solid #ddd;
+    padding: 0 4.5rem;
+    
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+  
+   
+}
+
+.search input{
+   border:none; 
+   position: relative;
+   
+}
+
+.btn{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    
+}
+
+.icon-nav{
+    margin:0 .5rem;
+}
+
+.icons li a i
+{
+    color:#000;
+}
+/* nav-menu-2 */
+
+.nav-menu-2 {
+    display: flex;
+    
+}
+
+.nav-menu-2 li{
+    padding-right: 10rem;
+    list-style: none;
+}
+
+.nav-menu-2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.type-search{
+    height: 5rem;
+    
+    
+    }
+
+.type-search p{
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+}    
+
+/* main-container*/
+
+.main-container {
+    display: flex;
+    padding: 0 4.5rem;
+   
+}
+
+
+
+
+/* container*/
+
+
+.container {
+   
+    width: 80vw;
+  padding: 0 4.5rem;
+   
+    
+    
+}
+
+.mujer {
+    background-image: url(../images/woman-model.jpg);
+    background-color: #000;
+    width: 100%;
+    height: 30rem;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+   
+  
+}
+
+.card-1{
+    width: 30rem ;
+}
+
+.card-1 img{
+    
+   width: 20rem;
+   height: 25rem ;
+}
+
+#match{
+    width: 15rem;
+}
+
+#number{
+    width: 5rem;
+}
+
+.btns-1{
+  margin:2.5rem 0;
+}
+
+.btn-4{
+    margin-right:2.5rem;
+}
+
+.btn-5{
+  padding: 1rem 4rem;
+  margin:0 4rem ;
+  background-color:#9090ff;
+  color: #fff;
+  border: none;
+}
+
+.btn-6{
+    padding: 1rem 4rem;
+    margin:0 4rem ;
+    color: #aaa;
+    border: 1px solid #aaaa;
+    background-color: #fff;
+  }
+  
+
+/* sidebar*/
+
+.side-bar {
+    width: 20vw;
+    height: 100vh;
+   
+   
+   
+}
+
+
+.categories {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li i{
+    margin-right: 1rem;
+}
+
+.subcategories li{
+  padding-left: 2rem;
+}
+
+.T-shirts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
